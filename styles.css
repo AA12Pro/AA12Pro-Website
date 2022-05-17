@@ -1,0 +1,127 @@
+body {
+  scroll-behavior: auto;
+  scroll-behavior: smooth;
+}
+
+.info {
+  text-align:center;
+  margin:20px;
+}
+
+.titlenav {
+  padding-right:1300px;
+}
+
+.main-title {
+  text-align:center;
+  background-color:#00008b;
+}
+
+.main-title img {
+  border-radius:100%;
+  width:20%;
+  height:auto;
+  margin:20px 0 20px 0
+}
+
+nav {
+  position:fixed
+}
+
+.information-1 {
+  padding:100px 20px 109px 20px;
+  background-color:powderblue;
+}
+
+h1 {
+  font-size:3rem;
+  font-family: 'Arvo', serif;
+}
+
+p {
+  font-size:2rem;
+  font-family: 'Dosis', sans-serif;
+}
+
+.information-1 img {
+  border-radius:100%;
+  width: 50%;
+  height: auto;
+}
+
+.information-2 h1 {
+  font-size:3rem;
+  font-family: 'Arvo', serif;
+  float:right;
+}
+
+.information-2 p {
+  font-size:2rem;
+  font-family: 'Dosis', sans-serif;
+  float:right;
+}
+
+.information-2 {
+  padding:100px 20px 800px 20px;
+  background-color:#A2D5AB;
+}
+
+.information-2 img {
+  border-radius:100%;
+  width:50%;
+  height:auto;
+  float:right;
+}
+
+.information-3 {
+  padding:100px 20px 100px 20px;
+  background-color:#557B83;
+}
+
+.information-3 img {
+  border-radius:100%;
+  width:50%;
+  height:auto;
+}
+
+.ranks {
+  padding:100px 20px 100px 20px;
+  background-color:#E5EFC1;
+  text-align:center;
+}
+
+.ranks h1 {
+  margin-bottom:100px;
+  text-align:center;
+  font-family: 'Arvo', serif;
+}
+
+.ranks button {
+  font-size:1.5rem;
+}
+
+.join-server{
+  margin:50px;
+  padding:100px;
+  text-align:center;
+}
+
+.join-server h1 {
+  margin-bottom:30px;
+  font-family: 'Arvo', serif;
+}
+
+.join-server h4 {
+  margin-bottom:30px;
+  font-family: 'Dosis', sans-serif;
+}
+
+table {
+  border-spacing: 20px;
+  background: #E91E63;
+}
+td {
+  background: #F00;
+  padding: 10px;
+  background: #FCE4EC;
+}
