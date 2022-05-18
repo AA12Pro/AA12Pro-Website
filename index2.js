@@ -1,40 +1,29 @@
-$(".nope1").on("click", function () {
-  $(".nothing1").addClass("r");
-})
+$( ".nope1" ).click(function() {
+  $( ".nothing1" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
 
-$(".nopeL1").on("click", function () {
-  $("nothing1").removeClass("r");
-})
+$( ".nope2" ).click(function() {
+  $( ".nothing2" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
 
-$(".nope2").on("click", function () {
-  $(".nothing2").addClass("r");
-})
+$( ".nope3" ).click(function() {
+  $( ".nothing3" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
 
-$(".nopeL2").on("click", function () {
-  $("nothing2").removeClass("r");
-})
+$( ".nope4" ).click(function() {
+  $( ".nothing4" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
 
-
-$(".nope3").on("click", function () {
-  $(".nothing3").addClass("r");
-})
-
-$(".nopeL3").on("click", function () {
-  $("nothing3").removeClass("r");
-})
-
-$(".nope4").on("click", function () {
-  $(".nothing4").addClass("r");
-})
-
-$(".nopeL4").on("click", function () {
-  $("nothing4").removeClass("r");
-})
-
-$(".nope5").on("click", function () {
-  $(".nothing5").addClass("r");
-})
-
-$(".nopeL5").on("click", function () {
-  $("nothing5").removeClass("r");
-})
+$( ".nope5" ).click(function() {
+  $( ".nothing5" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
