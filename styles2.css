@@ -1,0 +1,63 @@
+.info {
+  text-align:center;
+}
+
+.vip-section {
+  padding-top:30px;
+  padding-bottom:30px;
+  margin-right:200px;
+  margin-left:200px;
+  padding-left:20px;
+  background-color:gray;
+}
+
+.vipplus-section {
+  padding-top:30px;
+  padding-bottom:30px;
+  margin-right:200px;
+  margin-left:200px;
+  padding-right:20px;
+  background-color:#90EE90;
+  padding-top:20px;
+  text-align: right;
+}
+
+.mvp-section {
+  padding-top:30px;
+  padding-bottom:30px;
+  margin-right:200px;
+  margin-left:200px;
+  padding-left:20px;
+  background-color:#ffffe0;
+  padding-top:20px;
+}
+
+.mvpplus-section {
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-right:20px;
+  margin-right:200px;
+  margin-left:200px;
+  padding-left:20px;
+  background-color:#ADD8E6;
+  padding-top:20px;
+  text-align:right;
+}
+
+.mvpplusplus-section {
+  padding-top:30px;
+  padding-bottom:30px;
+  margin-right:200px;
+  margin-left:200px;
+  padding-left:20px;
+  background-color:yellow;
+  padding-top:20px;
+}
+
+.s {
+  visibility: hidden;
+}
+
+.r {
+  visibility:visible;
+}
