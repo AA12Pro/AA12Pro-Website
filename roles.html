@@ -60,6 +60,22 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="index2.js" charset="utf-8"></script>
-</body>
+
+  <p><button onclick="myFunction()">Info</button></p>
+
+<div id="myDIV"></div>
+
+<script>
+function myFunction1000() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "") {
+    x.innerHTML = "Swapped text!";
+  } else {
+    x.innerHTML = "";
+  }
+}
+</script>
+  
+  </body>
 
 </html>
