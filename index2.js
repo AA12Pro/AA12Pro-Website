@@ -27,5 +27,4 @@ $( ".nope5" ).click(function() {
     // Animation complete.
   });
 });
-  }
-}
+
