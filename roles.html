@@ -23,6 +23,26 @@
     <h1>VIP</h1>
     <img src="vip.png" alt="vip-rank">
     <br>
+    <script type="text/javascript">
+      function viprank(id, linkid) {
+          var divid = document.getElementById(id);
+          var toggleLink = document.getElementById(linkid);
+          if (divid.style.display == 'block') {
+              toggleLink.innerHTML = 'Show Widget';
+              divid.style.display = 'none';
+          }
+          else {
+              toggleLink.innerHTML = 'Hide Widget';
+              divid.style.display = 'block';
+          }
+      }
+    </script>
+    
+    <a id="toggler" onclick="showme('widget', this.id);" href="#">Info</a>
+    
+    <div id="widget" style="display:none;">
+    This is a widget
+    </div>
     <button type="button" name="button" class="btn btn-outline-dark nope1" data-toggle="button" aria-pressed="false">Info</button><br> <br>
     <p class="nothing1">Insert Text Here</p>
   </div>
@@ -61,26 +81,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="index2.js" charset="utf-8"></script>
 
-<script type="text/javascript">
-  function showme(id, linkid) {
-      var divid = document.getElementById(id);
-      var toggleLink = document.getElementById(linkid);
-      if (divid.style.display == 'block') {
-          toggleLink.innerHTML = 'Show Widget';
-          divid.style.display = 'none';
-      }
-      else {
-          toggleLink.innerHTML = 'Hide Widget';
-          divid.style.display = 'block';
-      }
-  }
-</script>
 
-<a id="toggler" onclick="showme('widget', this.id);" href="#">Show Widget</a>
-
-<div id="widget" style="display:none;">
-This is a widget
-</div>
   
   </body>
 
