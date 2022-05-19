@@ -40,25 +40,53 @@
     <a id="toggler" onclick="viprank('widget', this.id);" href="#">Info</a>
     
     <div id="widget" style="display:none;">
-    This is a widget
-    </div>
-    <button type="button" name="button" class="btn btn-outline-dark nope1" data-toggle="button" aria-pressed="false">Info</button><br> <br>
-    <p class="nothing1">Insert Text Here</p>
-  </div>
+      Insert Text
 
   <div class="vipplus-section">
     <h1>VIP+</h1>
     <img src="vip+.webp" alt="vip+-image"><br> <br>
-    <button type="button" name="button" class="btn btn-outline-dark nope2" data-toggle="button" aria-pressed="false">Info</button> <br> <br>
-    <p class="nothing2">Insert Text Here</p>
-
+    <script type="text/javascript">
+      function vipplusrank(id, linkid) {
+          var divid = document.getElementById(id);
+          var toggleLink = document.getElementById(linkid);
+          if (divid.style.display == 'block') {
+              toggleLink.innerHTML = 'Info';
+              divid.style.display = 'none';
+          }
+          else {
+              divid.style.display = 'block';
+          }
+      }
+    </script>
+    
+    <a id="toggler" onclick="vipplusrank('widget', this.id);" href="#">Info</a>
+    
+    <div id="widget" style="display:none;">
+    Insert Text
   </div>
 
   <div class="mvp-section">
     <h1>MVP</h1>
     <img src="mvp.webp" alt="mvp-image"><br>
-    <button type="button" name="button" class="btn btn-outline-dark nope3" data-toggle="button" aria-pressed="false">Info</button> <br> <br>
-    <p class="nothing3">Insert Text Here</p>
+    <script type="text/javascript">
+      function mvprank(id, linkid) {
+          var divid = document.getElementById(id);
+          var toggleLink = document.getElementById(linkid);
+          if (divid.style.display == 'block') {
+              toggleLink.innerHTML = 'Info';
+              divid.style.display = 'none';
+          }
+          else {
+              divid.style.display = 'block';
+          }
+      }
+    </script>
+    
+    <a id="toggler" onclick="mvprank('widget', this.id);" href="#">Info</a>
+    
+    <div id="widget" style="display:none;">
+    Insert Text
+  </div>
 
 
   </div>
@@ -66,16 +94,50 @@
   <div class="mvpplus-section">
     <h1>MVP+</h1>
     <img src="mvp+.webp" alt="mvp+-section"><br>
-    <button type="button" name="button" class="btn btn-outline-dark nope4" data-toggle="button" aria-pressed="false">Info</button> <br> <br>
-    <p class="nothing4">Insert Text Here</p>
+    <script type="text/javascript">
+      function mvprank(id, linkid) {
+          var divid = document.getElementById(id);
+          var toggleLink = document.getElementById(linkid);
+          if (divid.style.display == 'block') {
+              toggleLink.innerHTML = 'Info';
+              divid.style.display = 'none';
+          }
+          else {
+              divid.style.display = 'block';
+          }
+      }
+    </script>
+    
+    <a id="toggler" onclick="mvprank('widget', this.id);" href="#">Info</a>
+    
+    <div id="widget" style="display:none;">
+    Insert Text
+  </div>
   </div>
 
   <div class="mvpplusplus-section">
  
     <h1>MVP++</h1>
     <img src="mvp++.webp" alt="mvp++-section"><br>
-    <button type="button" name="button" class="btn btn-outline-dark nope5" data-toggle="button" aria-pressed="false">Info</button> <br> <br>
-    <p class="nothing5">Insert Text Here</p>
+    <script type="text/javascript">
+      function mvprank(id, linkid) {
+          var divid = document.getElementById(id);
+          var toggleLink = document.getElementById(linkid);
+          if (divid.style.display == 'block') {
+              toggleLink.innerHTML = 'Info';
+              divid.style.display = 'none';
+          }
+          else {
+              divid.style.display = 'block';
+          }
+      }
+    </script>
+    
+    <a id="toggler" onclick="mvprank('widget', this.id);" href="#">Info</a>
+    
+    <div id="widget" style="display:none;">
+    Insert Text
+  </div>
   </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="index2.js" charset="utf-8"></script>
