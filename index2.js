@@ -31,6 +31,7 @@ $( ".nope5" ).click(function() {
 function myFunction1000() {
   var x = document.getElementById("myDIV");
   if (x.innerHTML === "") {
+    .toggle( "slow");
     x.innerHTML = "Swapped text!";
   } else {
     x.innerHTML = "";
