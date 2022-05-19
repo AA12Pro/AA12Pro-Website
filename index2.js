@@ -28,11 +28,38 @@ $( ".nope5" ).click(function() {
   });
 });
 
-function myFunction1000() {
+function myFunction1() {
   var x = document.getElementById("myDIV");
   if (x.innerHTML === "") {
-    .toggle( "slow");
-    x.innerHTML = "Swapped text!";
+    x.innerHTML = "INSERT TEXT";
+  } else {
+    x.innerHTML = "";
+
+function myFunction2() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "") {
+    x.innerHTML = "INSERT TEXT";
+  } else {
+    x.innerHTML = "";
+
+function myFunction3() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "") {
+    x.innerHTML = "INSERT TEXT";
+  } else {
+    x.innerHTML = "";
+
+function myFunction4() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "") {
+    x.innerHTML = "INSERT TEXT";
+  } else {
+    x.innerHTML = "";
+
+function myFunction5() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "") {
+    x.innerHTML = "INSERT TEXT";
   } else {
     x.innerHTML = "";
   }
