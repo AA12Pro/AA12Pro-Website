@@ -3,14 +3,6 @@
 }
 
 .vip-section {
-  display: block;
-}
-.span3:focus ~ .alert {
-  display: none;
-}
-.span2:focus ~ .alert {
-  display: block;
-}.alert{display:none;
   padding-top:30px;
   padding-bottom:30px;
   margin-right:200px;
