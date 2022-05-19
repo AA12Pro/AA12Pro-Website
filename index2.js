@@ -27,3 +27,12 @@ $( ".nope5" ).click(function() {
     // Animation complete.
   });
 });
+
+function myFunction1000() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "") {
+    x.innerHTML = "Swapped text!";
+  } else {
+    x.innerHTML = "";
+  }
+}
