@@ -27,40 +27,5 @@ $( ".nope5" ).click(function() {
     // Animation complete.
   });
 });
-
-function myFunction1() {
-  var x = document.getElementById("myDIV");
-  if (x.innerHTML === "") {
-    x.innerHTML = "INSERT TEXT";
-  } else {
-    x.innerHTML = "";
-
-function myFunction2() {
-  var x = document.getElementById("myDIV");
-  if (x.innerHTML === "") {
-    x.innerHTML = "INSERT TEXT";
-  } else {
-    x.innerHTML = "";
-
-function myFunction3() {
-  var x = document.getElementById("myDIV");
-  if (x.innerHTML === "") {
-    x.innerHTML = "INSERT TEXT";
-  } else {
-    x.innerHTML = "";
-
-function myFunction4() {
-  var x = document.getElementById("myDIV");
-  if (x.innerHTML === "") {
-    x.innerHTML = "INSERT TEXT";
-  } else {
-    x.innerHTML = "";
-
-function myFunction5() {
-  var x = document.getElementById("myDIV");
-  if (x.innerHTML === "") {
-    x.innerHTML = "INSERT TEXT";
-  } else {
-    x.innerHTML = "";
   }
 }
