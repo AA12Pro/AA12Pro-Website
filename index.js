@@ -3,7 +3,7 @@ document.querySelector(".join-server button").addEventListener("click", myFuncti
 
 function myFunction() {
   /* Get the text field */
-  var copyText = document.getElementById("myInput").style.visibility='hidden';
+  var copyText = document.getElementById("myInput");
 
   /* Select the text field */
   copyText.select();
