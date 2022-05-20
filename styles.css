@@ -28,7 +28,7 @@ nav {
   position:fixed
 }
 
-.information-1 {
+.About {
   padding:100px 20px 109px 20px;
   background-color:powderblue;
 }
@@ -43,42 +43,42 @@ p {
   font-family: 'Dosis', sans-serif;
 }
 
-.information-1 img {
+.About img {
   border-radius:100%;
   width: 50%;
   height: auto;
 }
 
-.information-2 h1 {
+.Games h1 {
   font-size:3rem;
   font-family: 'Arvo', serif;
   float:right;
 }
 
-.information-2 p {
+.Games p {
   font-size:2rem;
   font-family: 'Dosis', sans-serif;
   float:right;
 }
 
-.information-2 {
+.Games {
   padding:100px 20px 800px 20px;
   background-color:#A2D5AB;
 }
 
-.information-2 img {
+.Games img {
   border-radius:100%;
   width:50%;
   height:auto;
   float:right;
 }
 
-.information-3 {
+.Communtiy {
   padding:100px 20px 100px 20px;
   background-color:#557B83;
 }
 
-.information-3 img {
+.Communtiy img {
   border-radius:100%;
   width:50%;
   height:auto;
