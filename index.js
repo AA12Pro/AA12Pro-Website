@@ -3,14 +3,14 @@ document.querySelector(".join-server button").addEventListener("click", myFuncti
 
 function myFunction() {
   /* Get the text field */
-  var copyText = document.getElementById("myInput");
+  var copyText = document.getElementById("myInput").style.visibility='hidden';
 
   /* Select the text field */
   copyText.select();
   copyText.setSelectionRange(0, 99999); /* For mobile devices */
 
   /* Copy the text inside the text field */
-  navigator.clipboard.writeText(copyText.value).style.visibility='hidden';
+  navigator.clipboard.writeText(copyText.value);
 
   /* Alert the copied text */
 
