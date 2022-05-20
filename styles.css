@@ -1,15 +1,6 @@
-body {
-  scroll-behavior: auto;
-  scroll-behavior: smooth;
-}
-
 .info {
   text-align:center;
   margin:20px;
-}
-
-.titlenav {
-  padding-right:1300px;
 }
 
 .main-title {
@@ -28,7 +19,7 @@ nav {
   position:fixed
 }
 
-.about {
+.information-1 {
   padding:100px 20px 109px 20px;
   background-color:powderblue;
 }
@@ -43,42 +34,42 @@ p {
   font-family: 'Dosis', sans-serif;
 }
 
-.about img {
+.information-1 img {
   border-radius:100%;
   width: 50%;
   height: auto;
 }
 
-.games h1 {
+.information-2 h1 {
   font-size:3rem;
   font-family: 'Arvo', serif;
   float:right;
 }
 
-.games p {
+.information-2 p {
   font-size:2rem;
   font-family: 'Dosis', sans-serif;
   float:right;
 }
 
-.games {
+.information-2 {
   padding:100px 20px 800px 20px;
   background-color:#A2D5AB;
 }
 
-.games img {
+.information-2 img {
   border-radius:100%;
   width:50%;
   height:auto;
   float:right;
 }
 
-.communtiy {
+.information-3 {
   padding:100px 20px 100px 20px;
   background-color:#557B83;
 }
 
-.communtiy img {
+.information-3 img {
   border-radius:100%;
   width:50%;
   height:auto;
